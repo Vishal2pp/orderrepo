@@ -17,7 +17,7 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>8</java.version>
-		<start-class>com.example.OrderServiceApplication</start-class>
+		<start-class>com.example.controller.OrderServiceApplication</start-class>
 	</properties>
 	<dependencies>
 		<dependency>
