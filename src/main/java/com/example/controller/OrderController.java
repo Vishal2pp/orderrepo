@@ -17,6 +17,10 @@ public class OrderController {
 	@Autowired
 	private OrderService orderService;
 	
+	@GetMapping("/")
+	public String welcome(){
+		return "Welcome to Order Service";
+	}
 	@GetMapping("/getAllOrders")
 	public List<Order> getAllOrders(){
 		return orderService.getAllOrders();
